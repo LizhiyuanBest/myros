@@ -1,0 +1,3 @@
+sensor_msgs/PointCloud2 src_points
+sensor_msgs/PointCloud2 tgt_points
+sensor_msgs/PointCloud2 res_points

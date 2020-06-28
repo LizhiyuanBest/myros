@@ -1,0 +1,4 @@
+std_msgs/String name
+
+---
+sensor_msgs/PointCloud2 result

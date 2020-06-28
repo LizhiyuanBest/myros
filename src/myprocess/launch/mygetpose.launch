@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<launch>
+
+	<node pkg="mykinect2" type="kinect2publisher" name="kinect2publisher" />
+	<node pkg="myprocess" type="getpose" name="getpose" output="screen"/>   
+	<node pkg="myprocess" type="pointsscriber" name="pointsscriber" output="screen"/>
+	<!-- <node pkg="myprocess" type="posescriber" name="posescriber" output="screen"/> -->
+
+ </launch>

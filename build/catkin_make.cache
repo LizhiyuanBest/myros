@@ -1,0 +1,2 @@
+mykinect2:myprocess
+-DCATKIN_DEVEL_PREFIX=/home/li/ROS/myros/devel -DCMAKE_INSTALL_PREFIX=/home/li/ROS/myros/install -G Unix Makefiles

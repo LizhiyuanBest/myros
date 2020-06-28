@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<launch>
+
+	<node pkg="mykinect2" type="kinect2publisher" name="kinect2publisher" output="screen"/>
+    <node pkg="mykinect2" type="kinect2subscriber" name="kinect2subscriber" output="screen"/>
+
+ </launch>
